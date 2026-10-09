@@ -1,0 +1,6 @@
+# run_verifier.py, build_filtered_train.py, extract_examples.py
+ollama   # Python client; run_verifier.py falls back if the installed client has no think= argument
+tqdm
+
+# analysis/summarize_scores.py --figure only
+matplotlib

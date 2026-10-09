@@ -1,0 +1,14 @@
+# MS MARCO-derived data stays out of the repo (non-commercial research license)
+data/
+*.jsonl
+*.json
+
+# extract_examples.py writes 20 full-length MS MARCO passages here
+analysis/false_negative_examples.md
+
+# Python and OS clutter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
